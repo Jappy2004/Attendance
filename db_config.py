@@ -25,4 +25,5 @@ connection = create_connection()
 
 if connection:
     # Close the connection when done
+    print ("Connection Success")
     connection.close()

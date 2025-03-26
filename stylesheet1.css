@@ -15,8 +15,8 @@ body {
 
 #logo {
     position: absolute;
-    top: 20px;
-    left: 37%;
+    top: 28px;
+    left: 36%;
     transform: translateX(-50%);
     display: flex;
 }
@@ -27,12 +27,19 @@ body {
     object-fit: contain;
 }
 
-/*.collegelogo img{
-    max-height: 230px;
-    width: 200px;
-    padding-bottom: 15px;
+.collegelogo {
+    position: absolute;
+    right: 187px; /* Align to the right */
+    width: 100px; /* Adjust width as needed */
+    bottom: 372px;
+}
+
+.collegelogo img {
+    max-height: 150px; /* Adjust size */
+    width: auto;
     object-fit: contain;
-}*/
+}
+
 
 .welcome {
     position: absolute;
@@ -57,13 +64,14 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: #B22222;
+    background: #b30000;
     display: flex;
     align-items: center;
     padding: 40px;
 }
 
 form {
+    transform: translateY(17%);
     text-align: center;
     width: 100%;   
 }
@@ -146,7 +154,7 @@ form {
 .registerbtn {
     width: 200px; /* Adjust size */
     height: 48px;
-    background: #B22222; /* Red */
+    background: #b30000; /* Red */
     color: #FFFFFF; /* White */
     border-radius: 8px;
     border: none;
@@ -161,7 +169,7 @@ form {
     color: #8B0000;
 }
 
-.container p {
+/*.container p {
     font-size: 14.5px;
     margin: 15px 0;
 }
@@ -180,4 +188,10 @@ form {
 .social-icons a:hover {
     background: #FFD700;
     color:#8B0000;
-}
+}*/
+
+/* Website 2 */
+
+
+
+
